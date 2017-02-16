@@ -6,6 +6,7 @@ describe CurrencyConvert do
   end
 
   it "can create a new money" do
-    expect(false).to eq(true)
+    fifty_euros = Money.new('EUR', 50)
+    expect(response).to be_success
   end
 end
