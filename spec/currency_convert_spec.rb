@@ -5,7 +5,7 @@ describe CurrencyConvert do
     expect(CurrencyConvert::VERSION).not_to be nil
   end
 
-  it "does something useful" do
+  it "can create a new money" do
     expect(false).to eq(true)
   end
 end
