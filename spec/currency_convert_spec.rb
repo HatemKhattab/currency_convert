@@ -6,7 +6,7 @@ describe CurrencyConvert do
   end
 
   it "can create a new money" do
-    fifty_euros = Money.new('EUR', 50)
-    expect(response).to be_success
+    fifty_euros = Money.new(50, 'EUR')
+    expect(fifty_euros).to_not be_nil
   end
 end
