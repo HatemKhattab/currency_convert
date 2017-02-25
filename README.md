@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ # to create a new money 
+   fifty_euros = Money.new(50, 'EUR')
 
 ## Development
 

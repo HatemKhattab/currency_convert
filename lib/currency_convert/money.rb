@@ -5,4 +5,9 @@ class Money
     @amount = amount
     @currency = currency 
   end
+
+  def inspect
+   amount_f = "%0.2f" % @amount
+   return "#{amount_f} #{currency}"
+  end
 end
