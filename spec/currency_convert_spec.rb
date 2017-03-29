@@ -18,7 +18,14 @@ describe CurrencyConvert do
 
   it "convert to another money" do
     fifty_eur_in_usd = fifty_eur.convert_to('USD')
-    expect(fifty_eur_in_usd).to eq('55.50 USD')
+    expect(fifty_eur_in_usd.inspect).to eq("55.50 USD")
+  end
+
+  context "Arithmetics" do
+    it "can perform Additon" do
+      new_money = fifty_eur + twenty_dollar
+      expect(new_money.inspect).to eq("68.02 EUR")
+    end
   end
 end
 
