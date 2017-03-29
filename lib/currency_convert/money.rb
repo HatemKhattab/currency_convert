@@ -1,3 +1,4 @@
+require 'pry'
 class Money
 
   attr_accessor :amount, :currency
@@ -26,6 +27,12 @@ class Money
       result = amount * rate
     end
     Money.new(result, to)
+  end
+
+  def + another_money
+    another_money_amount = another_money.convert_to(currency).amount
+    binding.pry
+    Money.new(amount+another_money_amount, currency)
   end
 
 end
