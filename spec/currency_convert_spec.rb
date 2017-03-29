@@ -31,6 +31,12 @@ describe CurrencyConvert do
       new_money = fifty_eur - twenty_dollar
       expect(new_money.inspect).to eq("31.98 EUR")
     end
+
+    it "can perform division" do
+      new_money = fifty_eur / 2
+      expect(new_money.inspect).to eq("25.00 EUR")
+    end
+
   end
 end
 

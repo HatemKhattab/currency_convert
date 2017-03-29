@@ -33,11 +33,13 @@ class Money
     Money.new(amount+another_money_amount, currency)
   end
 
-    def - another_money
+  def - another_money
     another_money_amount = another_money.convert_to(currency).amount
     Money.new(amount-another_money_amount, currency)
   end
 
-
+  def / num
+    Money.new(amount/num, currency)
+  end
 
 end
