@@ -42,4 +42,8 @@ class Money
     Money.new(amount/num, currency)
   end
 
+  def * num
+    Money.new(amount*num, currency)
+  end
+
 end

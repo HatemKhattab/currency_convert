@@ -37,6 +37,11 @@ describe CurrencyConvert do
       expect(new_money.inspect).to eq("25.00 EUR")
     end
 
+    it "can perform multiplication" do
+      new_money = twenty_dollar * 3
+      expect(new_money.inspect).to eq("60.00 USD")
+    end
+
   end
 end
 
