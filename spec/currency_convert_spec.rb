@@ -26,6 +26,11 @@ describe CurrencyConvert do
       new_money = fifty_eur + twenty_dollar
       expect(new_money.inspect).to eq("68.02 EUR")
     end
+
+    it "can perform subtraction" do
+      new_money = fifty_eur - twenty_dollar
+      expect(new_money.inspect).to eq("31.98 EUR")
+    end
   end
 end
 
