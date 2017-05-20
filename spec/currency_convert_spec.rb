@@ -42,6 +42,22 @@ describe CurrencyConvert do
       expect(new_money.inspect).to eq("60.00 USD")
     end
 
+  context "Comparison" do
+    fifty_eur_in_usd = fifty_eur.convert_to("USD")
+    it "can perform equality" do
+      expect(twenty_dollar == Money.new(20, 'USD')).to be true
+      expect(twenty_dollar == Money.new(30, 'USD')).to be false
+      expect(fifty_eur_in_usd == fifty_eur).to be true
+    end
+
+    it "can perform greater than and less than" do
+      expect(twenty_dollar > Money.new(5, 'USD')).to be true
+      expect(twenty_dollar < fifty_eur).to be true
+
+    end
+
+  end
+
   end
 end
 

@@ -1,6 +1,7 @@
 class Money
-
-  attr_accessor :amount, :currency
+  
+  include Comparable
+  attr_reader :amount, :currency
 
   def initialize(amount, currency)
     @amount = amount
@@ -44,6 +45,17 @@ class Money
 
   def * num
     Money.new(amount*num, currency)
+  end
+
+  def <=> another_money
+    case (currency == another_money.currency)
+      when true
+        amount <=> another_money.amount
+      when false
+        money_1 = currency==@@origin_currency ? self.convert_to(another_money.currency).amount : amount 
+        money_2 = another_money.currency==@@origin_currency ? another_money.convert_to(currency).amount : another_money.amount
+        money_1 <=> money_2
+    end
   end
 
 end
