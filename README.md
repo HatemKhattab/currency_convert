@@ -1,6 +1,6 @@
 # CurrencyConvert
 
-A gem to deal with money, convert to another currency and perform comparison.
+A gem to deal with money, convert to another currency and perform different comparisons.
 
 
 ## Installation
@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
- # to create a new money 
+ * to create a new money 
    fifty_euros = Money.new(50, 'EUR')
 
 ## Development
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/currency_convert.
+Bug reports and pull requests are welcome on GitHub at https://github.com/HatemKhattab/currency_convert.
 
 
 ## License
