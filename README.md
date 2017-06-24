@@ -26,6 +26,7 @@ Or install it yourself as:
    fifty_euros = Money.new(50, 'EUR')
    ```
  * Configure the currency rates with respect to a base currency (here EUR)
+
    ```ruby 
    Money.conversion_rates('EUR', {
      'USD'     => 1.11,
