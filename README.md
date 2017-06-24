@@ -21,10 +21,18 @@ Or install it yourself as:
 
 ## Usage
 
- * to create a new money
+ * 	Create a new money
    ```ruby 
    fifty_euros = Money.new(50, 'EUR')
    ```
+ * Configure the currency rates with respect to a base currency (here EUR)
+   ```ruby 
+   Money.conversion_rates('EUR', {
+     'USD'     => 1.11,
+     'Bitcoin' => 0.0047
+   })
+   ```   
+
 
 ## Development
 
