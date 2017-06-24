@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
- * 	Create a new money
+ * Create a new money
    ```ruby 
    fifty_euros = Money.new(50, 'EUR')
    ```
