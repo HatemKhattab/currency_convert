@@ -22,9 +22,9 @@ Or install it yourself as:
 ## Usage
 
  * to create a new money
-   ``ruby 
+   ```ruby 
    fifty_euros = Money.new(50, 'EUR')
-   ``
+   ```
 
 ## Development
 
