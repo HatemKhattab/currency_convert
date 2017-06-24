@@ -1,8 +1,7 @@
 # CurrencyConvert
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/currency_convert`. To experiment with that code, run `bin/console` for an interactive prompt.
+A gem to deal with money, convert to another currency and perform comparison.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
