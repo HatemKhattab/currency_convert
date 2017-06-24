@@ -21,11 +21,11 @@ Or install it yourself as:
 
 ## Usage
 
- * Create a new money
+   Create a new money
    ```ruby 
    fifty_euros = Money.new(50, 'EUR')
    ```
- * Configure the currency rates with respect to a base currency (here EUR)
+   Configure the currency rates with respect to a base currency (here EUR)
 
    ```ruby 
    Money.conversion_rates('EUR', {
