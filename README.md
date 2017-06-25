@@ -24,6 +24,8 @@ Or install it yourself as:
    Create a new money
    ```ruby 
    fifty_euros = Money.new(50, 'EUR')
+   # fifty_eur.amount   # => 50
+   # fifty_eur.currency # => "EUR"
    ```
    Configure the currency rates with respect to a base currency (here EUR)
 
