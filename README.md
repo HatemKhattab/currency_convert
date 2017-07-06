@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/HatemKhattab/currency_convert.svg?branch=master)](https://travis-ci.org/HatemKhattab/currency_convert)
-
-
 # CurrencyConvert
+
+
+[![Build Status](https://travis-ci.org/HatemKhattab/currency_convert.svg?branch=master)](https://travis-ci.org/HatemKhattab/currency_convert)
 
 A gem to deal with money, convert to another currency and perform different comparisons.
 
