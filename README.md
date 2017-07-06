@@ -1,3 +1,6 @@
+https://travis-ci.org/HatemKhattab/currency_convert.svg?branch=master
+
+
 # CurrencyConvert
 
 A gem to deal with money, convert to another currency and perform different comparisons.
