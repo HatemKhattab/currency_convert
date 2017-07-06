@@ -1,4 +1,4 @@
-https://travis-ci.org/HatemKhattab/currency_convert.svg?branch=master
+[![Build Status](https://travis-ci.org/HatemKhattab/currency_convert.svg?branch=master)](https://travis-ci.org/HatemKhattab/currency_convert)
 
 
 # CurrencyConvert
