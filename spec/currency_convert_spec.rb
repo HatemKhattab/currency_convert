@@ -54,11 +54,7 @@ describe CurrencyConvert do
     it "can perform greater than and less than" do
       expect(twenty_dollar > Money.new(5, 'USD')).to be true
       expect(twenty_dollar < fifty_eur).to be true
-
     end
-
-  end
-
   end
 end
 
