@@ -41,6 +41,7 @@ describe CurrencyConvert do
       new_money = twenty_dollar * 3
       expect(new_money.inspect).to eq("60.00 USD")
     end
+  end
 
   context "Comparison" do
     fifty_eur_in_usd = fifty_eur.convert_to("USD")
